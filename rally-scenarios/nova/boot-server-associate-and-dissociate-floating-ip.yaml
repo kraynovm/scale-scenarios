@@ -26,7 +26,7 @@
         image:
             name: "TestVM"
         create_floating_ip_args:
-            ext_network: "ext_network_name"
+            ext_network: "public"
       runner:
         type: "constant"
         times: 5
